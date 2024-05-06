@@ -41,7 +41,7 @@ const SignupPage = () => {
   return (
     <div className='flex bg-[#669bbc] min-h-screen justify-center items-center'>
         <div className='bg-white p-10 rounded-lg shadow-lg'>
-            <h1 className="">Signup</h1>
+            <h1 >Signup</h1>
             <div className="flex flex-col my-4">
                 <label>Username</label>
                 <input type="text "

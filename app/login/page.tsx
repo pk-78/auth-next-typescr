@@ -37,7 +37,7 @@ const Loginpage = () => {
   return (
     <div className="flex bg-[#669bbc] min-h-screen justify-center items-center">
         <div className="bg-white p-10 rounded-lg shadow-lg">
-            <h1 className="">LOGIN</h1>
+            <h1 >LOGIN</h1>
             <div className="flex flex-col my-4">
                 <label>Email</label>
                 <input type="text "
@@ -46,7 +46,7 @@ const Loginpage = () => {
                 className="border-2 outline-none border-zinc-700 rounded-md" />
             </div>
             <div className="flex flex-col my-4">
-                <label>Password</label>
+            <label>Password</label>
                 <input type="password "
                 value={user.password}
                 onChange={(e)=> setUser({  ...user,password:e.target.value})}
