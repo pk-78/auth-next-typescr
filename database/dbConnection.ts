@@ -27,7 +27,7 @@
 
 import mongoose from "mongoose";
 
-// const mongoconn = "mongodb+srv://priyanshukushwaha311:6QuOCVQMgR2jaWAA@cluster0.4zhckof.mongodb.net/"
+
 
 export const connect = async () => {
     try { 

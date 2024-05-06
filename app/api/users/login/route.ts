@@ -7,7 +7,7 @@ import jwt from "jsonwebtoken";
 connect();
 
 
-// const Token_secrett ="qwertyuiop";
+
 export async function POST(req:NextRequest){
     try{
         const body = await req.json();
